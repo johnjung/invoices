@@ -1,0 +1,15 @@
+#!/bin/sh
+
+if [ $# -eq 0 ]
+  then
+    echo "Usage:"
+    echo "invoice <client> <yyyymm> <invoice_number>"
+    exit
+fi
+
+client=$1
+yyyymm=$2
+invoice_number=$3
+
+python invoice.py $yyyymm $invoice_number
+fop <client> <yyyymm> <invoice_number>

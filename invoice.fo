@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:layout-master-set>
+    <fo:simple-page-master margin-bottom="1in" margin-left="1in" margin-right="1in" margin-top="1in" master-name="letter" page-height="11in" page-width="8.5in">
+        <fo:region-body margin-top="1in"/>
+        <fo:region-before extent="1in"/>
+        <fo:region-after extent="1in"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="letter">
+    <fo:flow flow-name="xsl-region-body" font-family="AvenirLTStd-Black" font-weight="bold">
+      <fo:block>Invoice</fo:block>
+      <fo:block>John Jung</fo:block>
+      <fo:block>6259 North Magnolia Ave. Apt 2, Chicago, IL 60660</fo:block>
+      <fo:block>john@johnjung.us</fo:block>
+      <fo:block>September 3, 2019</fo:block>
+      <fo:block>Invoice #1036</fo:block>
+      <fo:block>To:</fo:block>
+      <fo:block>Chesterfield Awning Company</fo:block>
+      <fo:block>16999 Van Dam Rd.</fo:block>
+      <fo:block>South Holland, IL 60473</fo:block>
+      <fo:block>
+        <fo:table table-layout="fixed">
+          <fo:table-column column-width="1in"/>
+          <fo:table-column column-width="3.5in"/>
+          <fo:table-column column-width="1in"/>
+          <fo:table-column column-width="1in"/>
+          <fo:table-header>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Date</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Work Description</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Rate</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Time</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+          </fo:table-header>
+          <fo:table-body>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Content</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Content</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Content</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Content</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Content</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Content</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Content</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Content</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+          </fo:table-body>
+        </fo:table>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>
