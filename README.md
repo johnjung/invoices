@@ -18,10 +18,10 @@ $ pip install -r requirements.txt
 
 ### Getting Apache Formatting Objects Processor (FOP)
 
-[Download FOP](https://xmlgraphics.apache.org/fop/)
-Add Avenir to the fonts folder. 
+1. [Download FOP](https://xmlgraphics.apache.org/fop/)
+2. Add Avenir to the fonts folder. 
 
-Setting up API access to Google Sheets
+### Setting up API access to Google Sheets
 
 1. Go to the Google API Console: https://console.developers.google.com/
 2. Click 'create a new project'. 
